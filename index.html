@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- font style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <!-- custom tailwind -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        guu: '#B68C5A'
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        * {
+            font-family: "Poppins", sans-serif;
+        }
+
+        .poppins {
+            font-family: "Poppins", sans-serif;
+        }
+
+        .garamond {
+            font-family: "EB Garamond", serif;
+        }
+
+        body {
+            /* padding-left: 100px;
+            padding-right: 100px; */
+
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <header class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-10">
+        <!-- navbar -->
+        <div class="flex flex-row gap-11 justify-between items-center mt-4">
+            <div class="flex gap-2">
+                <img class="h-6 " src="images/business.png" alt="">
+                <h3 class="text-xl font-bold garamond">Justice</h3>
+            </div>
+
+            <!-- <div class="flex gap-4">
+                <p>Home</p>
+                <p>Services</p>
+                <p>Cases</p>
+                <p>Blog</p>
+                <p>Contact Us</p>
+            </div> -->
+            <div class="flex gap-5 text-xs">
+                <a href="">Home</a>
+                <a href="">Services</a>
+                <a href="">Cases</a>
+                <a href="">Blog</a>
+                <a href="">Contact Us</a>
+            </div>
+            <div class=>
+
+            </div>
+
+            <button class="btn bg-[#b68d5ad1]">Free Consultancy</button>
+
+        </div>
+
+        <div class="h-100vh">
+            <div class="mt-5 rounded-xl hero h-[68vh]" style="background-image: url(./images/banner\ \(1\).png);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-neutral-content text-center">
+                    <div class="w-2/3">
+                        <h1 class="mb-5 text-5xl font-bold">We Provide Effective Legal Solution</h1>
+                        <p class="mb-5">
+                            At Justice, our mission is to provide accessible and comprehensive legal services to
+                            individuals and businesses. With a dedicated team of experienced attorneys
+                        </p>
+
+                        <div class="flex gap-5 ">
+
+                            <label class="input input-bordered flex justify-between items-center  gap-2 w-5/6">
+                                <input type="text" class="grow " placeholder="Search your services" />
+
+                            </label>
+
+                            <button class="btn btn-primary bg-yellow-600">Primary</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <main class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-10">
+
+        <section>
+            <div class="text-center  justify-center m-auto w-3/5">
+                <h3 class="text-2xl font-bold">The Legal Solution</h3>
+
+                <p>Wwe provide the best legal solution to your all law related problems. awe have best advocates in your
+                    country. Who will help you.</p>
+
+            </div>
+
+            <!-- all law section -->
+
+            <section class="">
+
+                <div class="grid grid-cols-3 grid-rows-2 w-[80vw] m-auto  ">
+                    <!-- grid 1 -->
+                    <div class="border-solid border-r-[1px] border-b-[1px] p-12">
+                        <div class=" text-center flex flex-col gap-6">
+                            <img class="m-auto" src="./images/education.png" alt="">
+                            <h3 class="text-xl font-bold">Education Law</h3>
+                            <p class="text-xs">Education law encompasses the legal issues and regulations governing
+                                education systems, including public and private schools, higher education, and special
+                                education. </p>
+                            <img class="m-auto " src="./images/Frame.png" alt="">    
+                        </div>
+
+
+                    </div>
+
+                    <!-- grid 2 -->
+
+                    <div class="border-solid border-y-[1px] border-r-[1px] p-12">
+                        <div class=" text-center flex flex-col gap-6">
+                            <img class="m-auto" src="./images/education.png" alt="">
+                            <h3 class="text-xl font-bold">Criminal Law</h3>
+                            <p class="text-xs">Education law encompasses the legal issues and regulations governing
+                                education systems, including public and private schools, higher education, and special
+                                education. </p>
+                            <img class="m-auto " src="./images/Frame.png" alt="">    
+                        </div>
+                        
+
+
+                    </div>
+
+
+                    <!-- grid-3 -->
+                    <div class="border-b-[1px] p-12">
+                        <div class=" text-center flex flex-col gap-6">
+                            <img class="m-auto" src="./images/child.png" alt="">
+                            <h3 class="text-xl font-bold">Child Support</h3>
+                            <p class="text-xs">Education law encompasses the legal issues and regulations governing
+                                education systems, including public and private schools, higher education, and special
+                                education. </p>
+                            <img class="m-auto " src="./images/Frame.png" alt="">    
+                        </div>
+                    </div>
+
+                    <!-- grid-4 -->
+                    <div class="border-solid border-r-[1px] border-b-[1px] p-12">
+                        <div class=" text-center flex flex-col gap-6">
+                            <img class="m-auto" src="./images/business.png" alt="">
+                            <h3 class="text-xl font-bold">business Law</h3>
+                            <p class="text-xs">Education law encompasses the legal issues and regulations governing
+                                education systems, including public and private schools, higher education, and special
+                                education. </p>
+                            <img class="m-auto " src="./images/Frame.png" alt="">    
+                        </div>
+                    </div>
+                    
+                    <!-- grid-5 -->
+                    <div class="border-solid border-r-[1px] border-b-[1px] p-12">
+                        <div class=" text-center flex flex-col gap-6">
+                            <img class="m-auto" src="./images/divorce.png" alt="">
+                            <h3 class="text-xl font-bold">Divorce Law</h3>
+                            <p class="text-xs">Education law encompasses the legal issues and regulations governing
+                                education systems, including public and private schools, higher education, and special
+                                education. </p>
+                            <img class="m-auto " src="./images/Frame.png" alt="">    
+                        </div>
+                    </div>
+
+                    <!-- grid 6 -->
+                    <div class="border-b-[1px] p-12">
+                        <div class=" text-center flex flex-col gap-6">
+                            <img class="m-auto" src="./images/tax.png" alt="">
+                            <h3 class="text-xl font-bold">Tax Law</h3>
+                            <p class="text-xs">Education law encompasses the legal issues and regulations governing
+                                education systems, including public and private schools, higher education, and special
+                                education. </p>
+                            <img class="m-auto " src="./images/Frame.png" alt="">    
+                        </div>
+                    </div>
+
+
+                </div>
+            </section>
+
+        </section>
+
+        <!-- slider section -->
+
+        <div class="carousel w-full">
+            <div id="slide1" class="carousel-item relative w-full">
+
+
+               
+                    <div class=" bg-opacity-0">
+                        <div class="mt-5 bg-opacity-70" style="background-image: url(./images/slider-1.jpg);">
+
+                    </div>
+
+
+
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide4" class="btn btn-circle">❮</a>
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+
+            <div id="slide2" class="carousel-item relative w-full">
+              <img
+                src="./images/slider-2.jpg"
+                class="w-full" />
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide1" class="btn btn-circle">❮</a>
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+            <div id="slide3" class="carousel-item relative w-full">
+              <img
+                src="./images/slider-3.jpg"
+                class="w-full" />
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide2" class="btn btn-circle">❮</a>
+                <a href="#slide4" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+            <div id="slide4" class="carousel-item relative w-full">
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
+                class="w-full" />
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide3" class="btn btn-circle">❮</a>
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+          </div>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+
+</body>
+
+</html>
