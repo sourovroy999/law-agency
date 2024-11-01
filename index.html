@@ -23,7 +23,10 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
-                        guu: '#B68C5A'
+                        guu: '#B68C5A',
+                        backgroundImage: {
+                            sourov: "url(./)"
+                        }
                     }
                 }
             }
@@ -32,7 +35,7 @@
 
     <style>
         * {
-            font-family: "Poppins", sans-serif;
+            font-family: "EB Garamond", serif;
         }
 
         .poppins {
@@ -41,12 +44,6 @@
 
         .garamond {
             font-family: "EB Garamond", serif;
-        }
-
-        body {
-            /* padding-left: 100px;
-            padding-right: 100px; */
-
         }
     </style>
 </head>
@@ -136,7 +133,7 @@
                             <p class="text-xs">Education law encompasses the legal issues and regulations governing
                                 education systems, including public and private schools, higher education, and special
                                 education. </p>
-                            <img class="m-auto " src="./images/Frame.png" alt="">    
+                            <img class="m-auto " src="./images/Frame.png" alt="">
                         </div>
 
 
@@ -151,9 +148,9 @@
                             <p class="text-xs">Education law encompasses the legal issues and regulations governing
                                 education systems, including public and private schools, higher education, and special
                                 education. </p>
-                            <img class="m-auto " src="./images/Frame.png" alt="">    
+                            <img class="m-auto " src="./images/Frame.png" alt="">
                         </div>
-                        
+
 
 
                     </div>
@@ -167,7 +164,7 @@
                             <p class="text-xs">Education law encompasses the legal issues and regulations governing
                                 education systems, including public and private schools, higher education, and special
                                 education. </p>
-                            <img class="m-auto " src="./images/Frame.png" alt="">    
+                            <img class="m-auto " src="./images/Frame.png" alt="">
                         </div>
                     </div>
 
@@ -179,10 +176,10 @@
                             <p class="text-xs">Education law encompasses the legal issues and regulations governing
                                 education systems, including public and private schools, higher education, and special
                                 education. </p>
-                            <img class="m-auto " src="./images/Frame.png" alt="">    
+                            <img class="m-auto " src="./images/Frame.png" alt="">
                         </div>
                     </div>
-                    
+
                     <!-- grid-5 -->
                     <div class="border-solid border-r-[1px] border-b-[1px] p-12">
                         <div class=" text-center flex flex-col gap-6">
@@ -191,7 +188,7 @@
                             <p class="text-xs">Education law encompasses the legal issues and regulations governing
                                 education systems, including public and private schools, higher education, and special
                                 education. </p>
-                            <img class="m-auto " src="./images/Frame.png" alt="">    
+                            <img class="m-auto " src="./images/Frame.png" alt="">
                         </div>
                     </div>
 
@@ -203,7 +200,7 @@
                             <p class="text-xs">Education law encompasses the legal issues and regulations governing
                                 education systems, including public and private schools, higher education, and special
                                 education. </p>
-                            <img class="m-auto " src="./images/Frame.png" alt="">    
+                            <img class="m-auto " src="./images/Frame.png" alt="">
                         </div>
                     </div>
 
@@ -215,56 +212,250 @@
 
         <!-- slider section -->
 
-        <div class="carousel w-full">
-            <div id="slide1" class="carousel-item relative w-full">
+        <div class=" lg:h-[500px] w-5/6 mt-12 mx-auto">
+            <div class="carousel h-[500px]">
+                <!-- slide 1 -->
+                <div id="slide1" class="carousel-item relative w-full ">
+                    <div class="mt-5 rounded-xl hero " style="background-image: url(./images/slider1.jpg);">
+                        <div class="hero-overlay bg-opacity-80"></div>
+                        <div class="hero-content text-neutral-content text-center">
+                            <div class="w-2/3 space-y-3">
+                                <img class="rounded-full h-12 w-12 m-auto p-[0.9px] bg-white"
+                                    src="./images/modei-1.webp" alt="">
+                                <h2 class="font-semibold">Jahid Hossein</h2>
+                                <p class="text-xs">UX Designer</p>
+                                <p class="mb-5 text-xs">
+                                    Hello! I’m Jahid Hossain, a passionate UI designer dedicated to creating intuitive
+                                    and visually appealing user interfaces. With a background in [your background, e.g.,
+                                    graphic design, web development], I focus on enhancing user experience through
+                                    thoughtful design choices. My approach combines aesthetics and functionality
+                                </p>
 
-
-               
-                    <div class=" bg-opacity-0">
-                        <div class="mt-5 bg-opacity-70" style="background-image: url(./images/slider-1.jpg);">
-
+                            </div>
+                        </div>
                     </div>
 
 
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
 
-              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                <a href="#slide4" class="btn btn-circle">❮</a>
-                <a href="#slide2" class="btn btn-circle">❯</a>
-              </div>
+                </div>
+
+                <!-- slider 2 -->
+
+                <div id="slide2" class="carousel-item relative w-full">
+                    <div class="mt-5 rounded-xl hero " style="background-image: url(./images/slider-2.jpg);">
+                        <div class="hero-overlay bg-opacity-80"></div>
+                        <div class="hero-content text-neutral-content text-center">
+                            <div class="w-2/3 space-y-2">
+                                <img class="rounded-full h-12 w-12 m-auto p-[0.9px] bg-white" src="./images/model-2.jpg"
+                                    alt="">
+                                <h2 class="font-semibold">Awlad Hossein</h2>
+                                <p class="text-xs">UX Designer</p>
+                                <p class="mb-5 text-xs">
+                                    Hello! I’m Awlad Hossain, a passionate UI designer dedicated to creating intuitive
+                                    and visually appealing user interfaces. With a background in [your background, e.g.,
+                                    graphic design, web development], I focus on enhancing user experience through
+                                    thoughtful design choices. My approach combines aesthetics and functionality. </p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+
+                <!-- slide 3 -->
+                <div id="slide3" class="carousel-item relative w-full">
+                    <div class="mt-5 rounded-xl hero " style="background-image: url(./images/slider-3.jpg);">
+                        <div class="hero-overlay bg-opacity-90"></div>
+                        <div class="hero-content text-neutral-content text-center">
+                            <div class="w-2/3 space-y-2">
+                                <img class="rounded-full h-10 w-10 m-auto p-[0.9px] bg-white"
+                                    src="./images/model-3.jpeg" alt="">
+                                <h2 class="font-semibold">Samiul Islam</h2>
+                                <p class="text-xs">UX Designer</p>
+                                <p class="mb-5 text-xs">
+                                    Hello! I’m Samiul Islam, a passionate UI designer dedicated to creating intuitive
+                                    and visually appealing user interfaces. With a background in [your background, e.g.,
+                                    graphic design, web development], I focus on enhancing user experience through
+                                    thoughtful design choices. My approach combines aesthetics and functionality </p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-- FAQ Section -->
+        <section>
+            <div>
+                <div class="text-center  justify-center m-auto w-3/5 mt-14">
+                    <h3 class="text-3xl font-bold garamond">Frequently Asked Any Questions</h3>
+
+                    <p class=" mt-3 garamond">We provide the best legal solution to your all law related problems. awe
+                        have best advocates in your
+                        country. Who will help you.</p>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- accordian section -->
+
+<section class="mt-10">
+        <div class="flex garamond ">
+            <div class="flex flex-col gap-5 flex-1">
+                <div class="collapse collapse-plus bg-base-200 ">
+                    <input type="radio" name="my-accordion-3" checked="checked" />
+                    <div class="collapse-title text-xl font-medium garamond">1. What services does a law agency typically offer?
+                    </div>
+                    <div class="collapse-content">
+                        <p class="garamond"> A law agency often provides a range of legal services, including consultation, representation in court, contract review, and advice on various legal matters such as family law, criminal defense, personal injury, and business law. They may also offer services like mediation, estate planning, and intellectual property protection. It’s best to check their specific website for a detailed list of services they provide.</p>
+                    </div>
+                </div>
+                <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" />
+                    <div class="collapse-title text-xl font-medium garamond">How can I schedule a consultation with a lawyer?</div>
+                    <div class="collapse-content">
+                        <p class="garamond">You can usually schedule a consultation by filling out a contact form on the law agency's website, calling their office directly, or using an online booking system if available. Many agencies also offer initial consultations via phone or video conference.</p>
+                    </div>
+                </div>
+                <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" />
+                    <div class="collapse-title text-xl font-medium garamond">How are legal fees structured at a law agency?</div>
+                    <div class="collapse-content">
+                        <p class="garamond">Legal fees can vary widely depending on the agency and the type of case. Common structures include hourly rates, flat fees for specific services, and contingency fees, where the lawyer takes a percentage of any settlement or judgment. It’s important to discuss fees upfront during your initial consultation to understand the costs involved.</p>
+                    </div>
+                </div>
+
+                <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" />
+                    <div class="collapse-title text-xl font-medium garamond">What should I bring to my first meeting with a lawyer</div>
+                    <div class="collapse-content">
+                        <p class="garamond">For your first meeting, it’s helpful to bring any relevant documents related to your case, such as contracts, court papers, or identification. Additionally, prepare a list of questions you want to ask and any notes about your situation to help the lawyer understand your needs.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-1">
+                <img class="" src="./images/faq.png" alt="">
+            </div>
+        </div>
+        </section>
+
+        <!-- contact section -->
+        <!-- contact header -->
+        <div>
+            <div class="text-center  justify-center m-auto w-3/5 mt-14">
+                <h3 class="text-3xl font-bold garamond">Contact With Us</h3>
+
+                <p class="text-base mt-3 garamond">We'd love to hear from you! Whether you have questions, feedback, or need assistance, our team is here to help. Please reach out through any of the methods below, and we’ll respond as quickly as possible.</p>
+
+            </div>
+        </div>
+
+        <!-- contact description -->
+         <section class="flex gap-5 mt-12">
+
+            <!-- left -->
+            <div class="grid grid-cols-2 bg-base-200 grid-rows-2 flex-1">
+                <div class="border-r-2 border-b-2 text-center space-y-3 py-10 px-3">
+                    
+                    <img class="mx-auto" src="./images/location.png" alt="">
+                    <h2 class="text-xl font-semibold">Address</h2>
+                    <p>A108 Adam Street, <br>
+                        New York, NY 535022</p>
+                </div>
+                <div class="border-b-2 text-center space-y-3 py-10 px-3">
+                    <img class="mx-auto" src="./images/call.png" alt="">
+                    <h2 class="text-xl font-semibold">Call Us</h2>
+                    <p>+88 01750 00 00 00 <br>
+                        +88 01750 00 00 00</p>               
+                </div>
+                <div class="border-r-2 text-center space-y-3 py-10 px-3">
+                    <img class="mx-auto" src="./images/email.png" alt="">
+                    <h2 class="text-xl font-semibold">Email Us</h2>
+                    <p>sourovroy@gamil.com <br>
+                        arnab@gmail.com</p>
+                </div>
+                <div class="text-center space-y-3 py-10 px-3">
+                    <img class="mx-auto" src="./images/time.png" alt="">
+                    <h2 class="text-xl font-semibold">Working Hours</h2>
+                    <p>Mon-Fri: 9AM to 5PM <br>
+                        Sunday: 9AM to 1 PM</p>
+                </div>
             </div>
 
-            <div id="slide2" class="carousel-item relative w-full">
-              <img
-                src="./images/slider-2.jpg"
-                class="w-full" />
-              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                <a href="#slide1" class="btn btn-circle">❮</a>
-                <a href="#slide3" class="btn btn-circle">❯</a>
-              </div>
+            <!-- right -->
+            <div class="flex-1">
+            <div class="flex flex-col gap-3">
+                <input type="text" placeholder="Your Name" class="input poppins text-xs input-bordered w-full " />
+                <input type="text" placeholder="Your Email" class="input poppins text-xs input-bordered w-full " />
+                <input type="text" placeholder="Subject" class="input poppins text-xs input-bordered w-full " />
+                
+                <input type="text" placeholder="Your Messages" class="input text-start poppins text-xs input-bordered h-[11rem] w-full " />
+                <button class="btn btn-accent bg-[#B68C5A]">Send Messages</button>
+
+
             </div>
-            <div id="slide3" class="carousel-item relative w-full">
-              <img
-                src="./images/slider-3.jpg"
-                class="w-full" />
-              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                <a href="#slide2" class="btn btn-circle">❮</a>
-                <a href="#slide4" class="btn btn-circle">❯</a>
-              </div>
             </div>
-            <div id="slide4" class="carousel-item relative w-full">
-              <img
-                src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
-                class="w-full" />
-              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                <a href="#slide3" class="btn btn-circle">❮</a>
-                <a href="#slide1" class="btn btn-circle">❯</a>
-              </div>
-            </div>
-          </div>
+         </section>
+
+
 
     </main>
 
     <footer>
+        <footer class="footer bg-base-200 text-base-content p-10">
+            <nav>
+              <h6 class="footer-title">Services</h6>
+              <a class="link link-hover">Branding</a>
+              <a class="link link-hover">Design</a>
+              <a class="link link-hover">Marketing</a>
+              <a class="link link-hover">Advertisement</a>
+            </nav>
+            <nav>
+              <h6 class="footer-title">Company</h6>
+              <a class="link link-hover">About us</a>
+              <a class="link link-hover">Contact</a>
+              <a class="link link-hover">Jobs</a>
+              <a class="link link-hover">Press kit</a>
+            </nav>
+            <nav>
+              <h6 class="footer-title">Legal</h6>
+              <a class="link link-hover">Terms of use</a>
+              <a class="link link-hover">Privacy policy</a>
+              <a class="link link-hover">Cookie policy</a>
+            </nav>
+            <form>
+              <h6 class="footer-title">Newsletter</h6>
+              <fieldset class="form-control w-80">
+                <label class="label">
+                  <span class="label-text">Enter your email address</span>
+                </label>
+                <div class="join">
+                  <input
+                    type="text"
+                    placeholder="username@site.com"
+                    class="input input-bordered join-item" />
+                  <button class="btn btn-primary join-item">Subscribe</button>
+                </div>
+              </fieldset>
+            </form>
+          </footer>
 
     </footer>
 
